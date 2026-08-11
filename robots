@@ -1,0 +1,21 @@
+# 三星鑑・城主の館 robots.txt
+# 設計：朔（水先室・初代「径」）／実装：6代目ゼロ「梁」／2026-08-11
+#
+# ★置き場所：リポジトリ `yotyann4649.github.io` のルート
+#    → https://yotyann4649.github.io/robots.txt
+#    ★sitemap.xml と同じく、サイトのルートに無いと読まれない。apps/ の下ではない。
+#
+# ★中身の意味：
+#    User-agent: *   … すべての検索エンジンに向けて
+#    Allow: /        … 全ページの巡回を許可する（塞いでいるものは1つも無い）
+#    Sitemap:        … サイトマップの在り処を教える
+#
+# ★2026-08-11時点で、このサイトはGoogleに1ページも登録されていなかった。
+#    原因は塞いでいたからではない（正本HTML4枚に noindex は1つも無いことを朔が確認済み）。
+#    リポジトリ `yotyann4649.github.io` が存在せず、ルートが404だったため、
+#    Googleがサイトに辿り着く道そのものが無かった。この1枚は、その道を1本開けるためにある。
+
+User-agent: *
+Allow: /
+
+Sitemap: https://yotyann4649.github.io/sitemap.xml
